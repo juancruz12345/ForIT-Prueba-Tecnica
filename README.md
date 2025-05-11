@@ -15,7 +15,7 @@ Esta es una aplicación simple de lista de tareas (TODO List) desarrollada como 
     1. Clonar el repositorio
 
 git clone https://github.com/juancruz12345/ForIT-Prueba-Tecnica
-cd [NOMBRE_DEL_REPO]
+
 
     2. Ejecutar Backend
 
