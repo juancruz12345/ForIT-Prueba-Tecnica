@@ -1,0 +1,83 @@
+.task-detail-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.task-detail-card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.task-detail-card .card-header {
+  background-color: #f8f9fa;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.task-detail-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.task-detail-status {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.task-detail-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.task-detail-metadata-item {
+  display: flex;
+  align-items: center;
+}
+
+.task-detail-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre-line;
+  margin-bottom: 2rem;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.task-detail-checkbox {
+  cursor: pointer;
+  min-width: 22px;
+  height: 22px;
+}
+
+.task-detail-checkbox input {
+  width: 22px;
+  height: 22px;
+}
+
+.form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+@media (max-width: 576px) {
+  .task-detail-title {
+    font-size: 1.25rem;
+  }
+
+  .task-detail-metadata {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
