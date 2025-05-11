@@ -6,7 +6,7 @@ Esta es una aplicación simple de lista de tareas (TODO List) desarrollada como 
 
 - Backend: Node.js con Express
 - Frontend: React + Vite
-- Base de datos: (utilicé SQLite ya que tengo una cuenta en Turso)
+- Base de datos: (utilicé SQLite en Turso)
 
 ---
 
